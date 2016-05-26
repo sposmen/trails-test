@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "del": "^2.2.0",
-    "express": "^5.0.0-alpha.2",
+    "express": "^4.13.4",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.1",
     "gulp-watch": "^4.3.6",

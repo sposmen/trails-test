@@ -10,9 +10,23 @@ module.exports = {
     ]
   },
 
-  gulp : {
-    defaultTaskName : 'production'
+  database:{
+    stores: {
+      prod: {
+        adapter: require('sails-mongo'),
+        migrate: 'safe'
+      }
+
+    },
+    models: {
+      defaultStore: 'prod',
+      migrate: 'safe'
+    }
   },
+
+  // gulp : {
+  //   defaultTaskName : 'default'
+  // },
 
   log: {
     logger: new winston.Logger({
