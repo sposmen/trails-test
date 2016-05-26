@@ -14,7 +14,8 @@ module.exports = {
     stores: {
       prod: {
         adapter: require('sails-mongo'),
-        migrate: 'safe'
+        migrate: 'safe',
+        host: '192.168.99.1'
       }
 
     },

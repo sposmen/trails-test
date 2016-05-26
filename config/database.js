@@ -26,10 +26,11 @@ module.exports = {
      * To use this store, uncomment the "sqlitedev" store section below, and
      * run "npm install --save waterline-sqlite3"
      */
-    
+
      dev: {
       adapter: require('sails-mongo'),
-      migrate: 'alter'
+      migrate: 'alter',
+      host: '192.168.99.1'
     }
 
   },
