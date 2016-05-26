@@ -1,0 +1,8 @@
+/.tmp
+.idea
+node_modules
+coverage
+.editorconfig
+mongo/mongodb
+!mongo/mongodb/.gitkeep
+mongo/mongo.log
