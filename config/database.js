@@ -30,7 +30,7 @@ module.exports = {
      dev: {
       adapter: require('sails-mongo'),
       migrate: 'alter',
-      host: '192.168.99.1'
+      host: '172.17.0.2'
     }
 
   },
